@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impilo | Enquiry</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+  <div class="nav-left">
+    <a href="index.html">
+    <img src="assets/images/logo.png" alt="Impilo Logo" class="logo-tiny" />
+    </a>
+  </div>
+  <ul class="nav-links">
+  <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+	<li><a href="enquiry.html">Enquiry</a></li>
+	
+  </ul>
+</nav>
+
+  <!-- Enquiry Section -->
+  <section class="section-glass">
+    <h2>Make an Enquiry</h2>
+    <p>Please fill out the form below and our team will respond within 48 hours.</p>
+
+    <form>
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number (optional)" />
+
+      <select name="type" required>
+        <option value="">Select Enquiry Type</option>
+        <option value="adoption">Adoption Support</option>
+        <option value="child-protection">Child Protection</option>
+        <option value="partnership">Partnership Opportunity</option>
+        <option value="donation">Donation Inquiry</option>
+        <option value="other">Other</option>
+      </select>
+
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-glow">Submit Enquiry</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Impilo Child Protection & Adoption Services</p>
+  </footer>
+
+</body>
+</html>
